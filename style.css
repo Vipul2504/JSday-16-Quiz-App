@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 300;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.main-div{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: hsl(206, 92%, 85%);
+}
+
+.inner-div{
+    width: 40vw;
+    padding: 3rem 8rem;
+    border-radius: 1rem;
+    background-color: white;
+    /* font-size: 2rem; */
+}
+
+.inner-div h2{
+    font-size: 3.2rem;
+    margin: 1.5rem;
+}
+
+.inner-div li{
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    list-style: none;
+}
+
+input{
+    cursor: pointer;
+}
+
+#submit, .btn{
+    padding: 1rem 2rem;
+    outline: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    display: block;
+    margin: auto;
+    margin-top: 3rem;
+    /* border-radius: 1rem; */
+    border: none;
+    text-transform: uppercase;
+    background-color: #489ff5;
+    color: white;
+}
+
+#submit:hover{
+    background-color: #0984e3;
+}
+
+#showscore{
+    background-color: rgb(147, 178, 180);
+    margin-top: 2.5rem;
+    padding: 2.5rem 3rem;
+}
+
+.scorearea{
+    display: none;
+}
+
+#snowscore h3{
+    font-size:3rem;
+    text-align:center;}
+             .btn{
+   margin-top:2rem;
+   background-color:#55efc4;
+   color:#2d3436;
+  }
+  #showScore .btn{
+   background-color:#00b894;
+    color:#fff;
+  }
